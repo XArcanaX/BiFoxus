@@ -34,7 +34,12 @@ details .Job:last-child, details .school:last-child {
 }
 
 
-
+img {
+  width: 15%;
+  margin-left: 0; /* ou padding-left: 0 */
+  margin-right: auto; /* pour centrer l'image à l'intérieur du header */
+  border-radius: 50%;
+}
 
 .competences-section, .langues-section, .qualites-section {
   display: inline-block;
