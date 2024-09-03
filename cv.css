@@ -4,7 +4,7 @@ header {
     background-color: #93d4fa80;
 }
 
-/* CSS */
+
 details {
   transition: height 0.3s ease-in-out;
   overflow: hidden;
@@ -42,4 +42,20 @@ details .Job:last-child, details .school:last-child {
   vertical-align: top;
   width: 30%;
   padding: 1%;
+}
+
+.Experience-professionnelle{
+  background-color: #93d4fa80;
+}
+
+.Education{
+  background-color: #2aa7f080;
+}
+
+.Experience-professionnelle, .Education {
+  display: inline-block;
+  vertical-align: middle;
+  vertical-align: top;
+  width: 48%; /* ajuster la largeur pour qu'elle soit suffisamment petite */
+  padding: 1;
 }
