@@ -4,3 +4,31 @@ header {
     background-image: url("soap-bubble-3490959_1280.jpg");
 }
 
+/* CSS */
+details {
+  transition: height 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+details[open] {
+  transition: height 0.3s ease-in-out;
+}
+
+details summary {
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+details summary::marker {
+  content: "";
+}
+
+details .Job, details .school {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+details .Job:last-child, details .school:last-child {
+  border-bottom: none;
+}
