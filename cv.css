@@ -32,3 +32,14 @@ details .Job, details .school {
 details .Job:last-child, details .school:last-child {
   border-bottom: none;
 }
+
+
+
+
+.competences-section, .langues-section, .qualites-section {
+  display: inline-block;
+  vertical-align: middle;
+  vertical-align: top;
+  width: 30%;
+  padding: 1%;
+}
