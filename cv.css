@@ -36,8 +36,8 @@ details .Job:last-child, details .school:last-child {
 
 img {
   width: 15%;
-  margin-left: 0; /* ou padding-left: 0 */
-  margin-right: auto; /* pour centrer l'image à l'intérieur du header */
+  margin-left: 0;
+  margin-right: auto; 
   border-radius: 50%;
 }
 
@@ -61,6 +61,6 @@ img {
   display: inline-block;
   vertical-align: middle;
   vertical-align: top;
-  width: 48%; /* ajuster la largeur pour qu'elle soit suffisamment petite */
+  width: 48%;
   padding: 1;
 }
